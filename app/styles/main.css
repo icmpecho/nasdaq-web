@@ -80,6 +80,13 @@ body {
     margin: 5px 5px 2px 2px;
 }
 
+.menu-bar {
+    background-color: #999;
+    height: 33px;
+    padding-top: 10px;
+    width: 100%;
+}
+
 .container {
     max-width: 960px;
     padding: 0 10px 0 10px;
