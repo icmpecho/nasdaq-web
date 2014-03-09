@@ -114,3 +114,10 @@ body {
     margin: 0 auto 0 auto;
 }
 
+@media(max-width: 640px)  {
+    .desktop-only {
+        display: none;
+    }
+}
+
+
