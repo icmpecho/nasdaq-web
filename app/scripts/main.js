@@ -4,7 +4,13 @@ $(document).ready(function(){
 		dataType: 'jsonp',
 		jsonp: 'cb',
 		success: function(data){
-			console.log(data);
+			new Morris.Line({
+				element: 'stock-chart',
+				data: format_data_for_morris(data),
+				xkey: 'time',
+				ykeys: ['index'],
+				labels: ['Index']
+			});
 		}
 	});
 });
