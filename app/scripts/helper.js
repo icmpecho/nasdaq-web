@@ -1,6 +1,5 @@
 function format_time (unix_epoch) {
-	var dt = new Date(unix_epoch * 1000);
-	return dt.getHours() + ':' + dt.getMinutes();
+	return unix_epoch * 1000;
 }
 
 function format_data_for_morris (data) {
