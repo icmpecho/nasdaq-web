@@ -36,6 +36,20 @@ body {
     width: 100%;
 }
 
+.nav-bar .collapse-toggle {
+    display: inline-block;
+    width: 38px;
+}
+
+.nav-bar .collapse-toggle .dash {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fafafa;
+    margin-bottom: 3px;
+}
+
 .nav-bar .banner {
     font-size: 22px;
     color: #fafafa;
@@ -116,8 +130,13 @@ body {
 
 @media(max-width: 640px)  {
     .desktop-only {
-        display: none;
+        display: none !important;
     }
 }
 
+@media(min-width: 641px) {
+    .mobile-only {
+        display: none !important;
+    }
+}
 
