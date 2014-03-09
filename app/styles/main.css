@@ -87,6 +87,27 @@ body {
     width: 100%;
 }
 
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+    margin-right: 30px;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.menu .active a {
+    color: #fafafa;
+}
+
 .container {
     max-width: 960px;
     padding: 0 10px 0 10px;
