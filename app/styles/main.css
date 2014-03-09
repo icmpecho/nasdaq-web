@@ -65,7 +65,7 @@ body {
 }
 
 .search-box .search-field {
-    display: inline-block;
+    display: block;
     float: left;
     height: 26px;
     width: 164px;
@@ -76,7 +76,8 @@ body {
 }
 
 .search-box .search-button {
-    display: inline-block;
+    display: block;
+    float: left;
     text-decoration: none;
     color: #333;
     background-color: #eee;
